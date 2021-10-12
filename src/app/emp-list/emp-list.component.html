@@ -1,0 +1,38 @@
+<ul *ngFor="let data of datas">
+    <li>
+        <span>{{data.id}}</span>&nbsp;
+        <span>{{data.title}}</span>&nbsp;
+        <span>{{data.name}}</span>&nbsp;
+    </li>
+    <li>
+        <span>{{data.subordinates[0].id}}</span>&nbsp;
+        <span>{{data.subordinates[0].title}}</span>&nbsp;
+        <span>{{data.subordinates[0].name}}</span>&nbsp;
+    </li>
+    <li>
+        <span>{{data.subordinates[0].subordinates[0].id}}</span>&nbsp;
+        <span>{{data.subordinates[0].subordinates[0].title}}</span>&nbsp;
+        <span>{{data.subordinates[0].subordinates[0].name}}</span>&nbsp;
+    </li>
+    <li>
+        <span>{{data.subordinates[1].id}}</span>&nbsp;
+        <span>{{data.subordinates[1].title}}</span>&nbsp;
+        <span>{{data.subordinates[1].name}}</span>&nbsp;
+    </li>
+    <li>
+        <span>{{data.subordinates[1].subordinates[0].id}}</span>&nbsp;
+        <span>{{data.subordinates[1].subordinates[0].title}}</span>&nbsp;
+        <span>{{data.subordinates[1].subordinates[0].name}}</span>&nbsp;
+    </li>
+    <li>
+        <span>{{data.subordinates[1].subordinates[0].subordinates[0].id}}</span>&nbsp;
+        <span>{{data.subordinates[1].subordinates[0].subordinates[0].title}}</span>&nbsp;
+        <span>{{data.subordinates[1].subordinates[0].subordinates[0].name}}</span>&nbsp;
+    </li>
+    <li>
+        <span>{{data.subordinates[1].subordinates[1].id}}</span>&nbsp;
+        <span>{{data.subordinates[1].subordinates[1].title}}</span>&nbsp;
+        <span>{{data.subordinates[1].subordinates[1].name}}</span>&nbsp;
+    </li>
+    
+</ul>
